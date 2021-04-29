@@ -125,10 +125,9 @@ most_affected_region(hurricanes)
 
 
 
-# 6
+#6
+# Rating Hurricanes by Mortality
 # Calculating the Deadliest Hurricane
-#killer_hurricane(hurricanes)
-# find highest mortality hurricane and the number of deaths
 
 def killer_hurricane(dic):
     values={}
@@ -142,30 +141,7 @@ def killer_hurricane(dic):
             deaths=item[1]
             deaths_key=item[0]
     #print(deaths,deaths_key)
-# 7
-# Rating Hurricanes by Mortality
+#killer_hurricane(hurricanes)
 
 
 
-
-
-
-
-
-# categorize hurricanes in new dictionary with mortality severity as key
-
-
-# 8 Calculating Hurricane Maximum Damage
-
-# find highest damage inducing hurricane and its total cost
-
-
-# 9
-# Rating Hurricanes by Damage
-damage_scale = {0: 0,
-                1: 100000000,
-                2: 1000000000,
-                3: 10000000000,
-                4: 50000000000}
-  
-# categorize hurricanes in new dictionary with damage severity as key
