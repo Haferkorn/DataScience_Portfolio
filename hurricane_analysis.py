@@ -36,15 +36,10 @@ def convert (list):
       NewStr=elem.replace("B","")
       damages_conv.append(float(NewStr)*conversion["B"])
       
-  
-# test function by updating damages
+
 convert(damages)
-#print(damages_conv)
 
 
-
-# 2 
-# Create a Table
 def create_dictionary(names, months, years, max_sustained_winds, areas_affected, damages_conv, deaths):
   """Create dictionary of hurricanes with hurricane name as the key and a dictionary of hurricane data as the value."""
   hurricanes = {}
@@ -62,31 +57,99 @@ def create_dictionary(names, months, years, max_sustained_winds, areas_affected,
 # Create and view the hurricanes dictionary
 hurricanes = create_dictionary(names, months, years, max_sustained_winds, areas_affected, damages_conv, deaths)
 
+print(hurricanes)
+
 # 3
 # Organizing by Year
+def create_year_dictionary(hurricanes):
+  """Convert dictionary with hurricane name as key to a new dictionary with hurricane year as the key and return new dictionary."""
+  hurricanes_by_year= {}
+  for cane in hurricanes:
+   #cane is the name (key) of every hurricane
+      current_year = hurricanes[cane]['Year']
+      current_cane = hurricanes[cane]
+      if current_year not in hurricanes_by_year:
+          hurricanes_by_year[current_year] = [current_cane]
+      else:
+          hurricanes_by_year[current_year].append(current_cane)
+  return hurricanes_by_year
+
 
 # create a new dictionary of hurricanes with year and key
-
+hurricanes_by_year=create_year_dictionary(hurricanes)
+#print(hurricanes)
 
 # 4
 # Counting Damaged Areas
-
 # create dictionary of areas to store the number of hurricanes involved in
 
+#using the List 
+lenlist=len(areas_affected)
+flatList=[]
+ares={}
+def areas_from_comlex_list(list):
+    for i in list:
+        for j in i:
+            flatList.append(j)
+    for elem in flatList:
+        test=flatList.count(elem)
+        if elem not in ares:
+            ares[elem]=flatList.count(elem)
+    return ares
+#test=areas_from_comlex_list(areas_affected)
+#print(test)
+
+areas=[]
+#using dict. 
+def value_in_dic(dic):
+    for canes in dic.keys():
+        areas.append(dic[canes]["Areas Affected"])
+    return areas_from_comlex_list(areas)
+
+print(value_in_dic(hurricanes))
 
 # 5 
 # Calculating Maximum Hurricane Count
-
 # find most frequently affected area and the number of hurricanes involved in
+def most_affected_region(dicti):
+    worst_value=0
+    worst_key=""    
+    my_values=value_in_dic(dicti)
+    for item in my_values.items():
+        if item[1]>worst_value:
+            worst_value=item[1]
+            worst_key=item[0]
+            print(worst_key,worst_value)
+        
+most_affected_region(hurricanes)
+
 
 
 # 6
 # Calculating the Deadliest Hurricane
-
+#killer_hurricane(hurricanes)
 # find highest mortality hurricane and the number of deaths
 
+def killer_hurricane(dic):
+    values={}
+    deaths=0
+    deaths_key=""
+
+    for cane in dic:
+        values[cane]=dic[cane]['Deaths']
+    for item in values.items():
+        if item[1]>deaths:
+            deaths=item[1]
+            deaths_key=item[0]
+    #print(deaths,deaths_key)
 # 7
 # Rating Hurricanes by Mortality
+
+
+
+
+
+
 
 
 # categorize hurricanes in new dictionary with mortality severity as key
