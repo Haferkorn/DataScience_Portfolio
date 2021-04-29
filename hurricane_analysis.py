@@ -55,12 +55,12 @@ def create_dictionary(names, months, years, max_sustained_winds, areas_affected,
                           "Year": years[i],
                           "Max Sustained Wind": max_sustained_winds[i],
                           "Areas Affected": areas_affected[i],
-                          "Damage": damages_[i],
+                          "Damage": damages_conv[i],
                           "Deaths": deaths[i]}
   return hurricanes
 
 # Create and view the hurricanes dictionary
-hurricanes = create_dictionary(names, months, years, max_sustained_winds, areas_affected, updated_damages, deaths)
+hurricanes = create_dictionary(names, months, years, max_sustained_winds, areas_affected, damages_conv, deaths)
 
 # 3
 # Organizing by Year
