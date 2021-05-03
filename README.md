@@ -20,7 +20,7 @@ I've learned, practiced and successfully applied following skills & topics:
 - SQL
 - Data Acquisition
 - Web Scraping
-- Data Manipulation with Pandas [Example 1](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/Pandas.ipynb)
+- Data Manipulation with Pandas [Example 1](https://github.com/Haferkorn/DataScience_Portfolio/tree/main/Pandas/Country_Analysis) [Example 2](https://github.com/Haferkorn/DataScience_Portfolio/tree/main/Pandas/Country_Analysis)
 - Data Wrangling and Tidying
 - Hypothesis Testing
 - Data Visualization
