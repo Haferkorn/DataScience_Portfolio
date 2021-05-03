@@ -31,7 +31,7 @@ I've learned, practiced and successfully applied following skills & topics:
 
 List of projects:
 
-- [Hurricane Analysis Challenge](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/projects/hurricaneAnalysis.py(Python): This project aimed to use the basics of Python programming (dictionaries, loops, conditionals, etc.) to analyze data and put it into context. 
+- [Hurricane Analysis Challenge](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/projects/hurricaneAnalysis.py) (Python): This project aimed to use the basics of Python programming (dictionaries, loops, conditionals, etc.) to analyze data and put it into context. 
 
 (tbc)
 
