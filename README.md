@@ -1,36 +1,37 @@
-# DataScience_Course
-This repository is for completed projects and code snippets from Codecademy Data Science Career Path: https://www.codecademy.com/learn/paths/data-science
+# DataScience_Portfolio
+This repository is for completed projects and code snippets from Codecademy Data Science Career Path: https://www.codecademy.com/learn/paths/data-science, freeccodeCamp Data Analysis with Python https://www.freecodecamp.org/learn/data-analysis-with-python/ and Master Course at Beuth University of Applied Sciences Berlin 
 
 Hi there!
 
 After a Bachelor Degree in Computer Science with a focus on music technology and during my Master degree in Media Informatics, I'm intensively learning to code and interested in data science, software engineering and web design aiming to be hired in 2022.
-This repository is for completed projects and code snippets from Codecademy Data Science Career Path. 
+This repository is for completed projects and code snippets from various Data Science classes. 
 
-With The Data Science Career Path, I've learned, practiced and successfully applied following skills & topics:
+I've learned, practiced and successfully applied following skills & topics:
 
-Command Line Commands
-Learn Git Course
-Python 3
-Python Objects and Classes
-Linear Data Structures
-Complex Data Structures
-Asymptotic Notation
-Recursion with Python
-SQL
-Data Acquisition
-Web Scraping
-Data Manipulation with Pandas
-Data Wrangling and Tidying
-Hypothesis Testing
-Data Visualization
-Natural Language Processing
-Foundations of Machine Learning: Supervised Learning
-Foundations of Machine Learning: Unsupervised Learning
-Foundations of Deep Learning
+- Command Line Commands
+- Learn Git Course
+- Python 3
+- Python Objects and Classes
+- Linear Data Structures
+- Complex Data Structures
+- Asymptotic Notation
+- Recursion with Python
+- Numpy [Numpy Basic Concepts](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/Numpy.ipynb)
+- SQL
+- Data Acquisition
+- Web Scraping
+- Data Manipulation with Pandas
+- Data Wrangling and Tidying
+- Hypothesis Testing
+- Data Visualization
+- Natural Language Processing
+- Foundations of Machine Learning: Supervised Learning
+- Foundations of Machine Learning: Unsupervised Learning
+- Foundations of Deep Learning
 
 List of projects:
 
-Hurricane Analysis Challenge Project (Python): This project aimed to use the basics of Python programming (dictionaries, loops, conditionals, etc.) to analyze data and put it into context. 
+- Hurricane Analysis Challenge Project (Python): This project aimed to use the basics of Python programming (dictionaries, loops, conditionals, etc.) to analyze data and put it into context. 
 
 (tbc)
 
