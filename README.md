@@ -16,7 +16,7 @@ I've learned, practiced and successfully applied following skills & topics:
 - Complex Data Structures
 - Asymptotic Notation
 - Recursion with Python
-- Numpy [Numpy Basic Concepts](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/Numpy.ipynb)
+- [Numpy Basic Concepts](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/Numpy.ipynb)
 - SQL
 - Data Acquisition
 - Web Scraping
