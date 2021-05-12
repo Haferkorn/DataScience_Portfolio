@@ -11,6 +11,7 @@ I've learned, practiced and successfully applied following skills & topics:
 - Command Line Commands
 - Learn Git Course
 - Python 3
+- R [Example 1] (https://github.com/Haferkorn/DataScience_Portfolio/blob/main/R/numberGuesser.r)
 - Python Objects and Classes
 - Linear Data Structures
 - Complex Data Structures
