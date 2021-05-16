@@ -34,7 +34,7 @@ List of projects:
 
 - [Hurricane Analysis Challenge](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/projects/hurricaneAnalysis.py) (Python): This project aimed to use the basics of Python programming (dictionaries, loops, conditionals, etc.) to analyze data and put it into context. 
 
-(tbc)
+- [Linear Regression](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/projects/Reggie_Linear_Regression_Skeleton.ipynb) (Python): In this project, I combine my knowledge of lists, loops, and syntax to help a mad scientist perform some calculations on his data.
 
 
 Hope this repo will help you to assess my coding skills or will be just fun for you to play with.
