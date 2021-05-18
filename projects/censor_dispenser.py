@@ -30,6 +30,6 @@ def write_in_doc(phrase):
     elif file_format=="docx":
         mydoc = docx.Document()
         mydoc.add_paragraph(phrase)
-        mydoc.save("Anette_H.docx")   
+        mydoc.save("Anette_H.docx") 
 
 print(censsor(page_text, ["Haferkorn","Anette", "28.02.1997","Stuttgart"]))
