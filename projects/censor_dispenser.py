@@ -11,7 +11,7 @@ pdf_path = (
     / "Haferkorn.pdf"
     / "censor_dispenser.py"
 )
-outputpath=Path.home()/"Anette.txt"
+
 
 page_text=first_page.extractText()
 
