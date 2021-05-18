@@ -36,6 +36,8 @@ List of projects:
 
 - [Linear Regression](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/projects/Reggie_Linear_Regression_Skeleton.ipynb) (Python): In this project, I combine my knowledge of lists, loops, and syntax to help a mad scientist perform some calculations on his data.
 
+- [Censor Dispenser](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/projects/censor_dispenser.py) (Python): Small Tool which reads Text out of a PDF File, censors sensible Information like Names, bithdates etc. and writes the whole text in another or new file. 
+
 
 Hope this repo will help you to assess my coding skills or will be just fun for you to play with.
 
