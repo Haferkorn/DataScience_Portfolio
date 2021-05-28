@@ -22,7 +22,7 @@ I've learned, practiced and successfully applied following skills & topics:
 - Data Acquisition
 - Web Scraping
 - Data Manipulation with Pandas [Example 1](https://github.com/Haferkorn/DataScience_Portfolio/tree/main/Pandas/Country_Analysis) [Example 2](https://github.com/Haferkorn/DataScience_Portfolio/tree/main/Pandas/Country_Analysis)
-- Cleaning Data [Missing Values](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/CleaningData/cleaning-data-day-one.ipynb) [Scale and Normalize Data](https://github.com/Haferkorn/DataScience_Portfolio/blob/main/CleaningData/data-cleaning-challenge-scale-and-normalize-data.ipynb)
+- [Cleaning Data](https://github.com/Haferkorn/DataScience_Portfolio/tree/main/CleaningData) 
 - Hypothesis Testing
 - Data Visualization
 - Natural Language Processing
